@@ -4,3 +4,33 @@ body {
     background-size: cover; 
   }
   
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.card {
+    background-color: #F1E3E6;
+    margin-radius: 23px23px23px23px;
+    border: 2px solid;
+    border-color:lightpink
+    border-radius: 23px23px23px23px;
+    box-shadow: 10px 10px #ebd8da;
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    min-height: 200px;
+    padding: 30px;
+       }
+.username {
+     margin: 5px;
+     min-width: 15px;
+}
+.password {
+    margin: 5px;
+    min-width: 15px;
+}
+ button { 
+  margin: 5px;
+  min-width: 15px;
+}
